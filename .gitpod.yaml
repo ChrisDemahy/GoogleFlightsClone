@@ -5,7 +5,7 @@ image:
 tasks:
   - init: |
       npm install -g create-react-app
-      cd web && npm install
+#      cd web && npm install
   - command: |
       cd web && npm start
       
