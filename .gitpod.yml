@@ -3,6 +3,9 @@ image:
 
 
 tasks:
+  - init: npm i -g @cloudflare/wrangler
+
+  
   - init: |
       npm i -g create-react-app
       npm i -g @cloudflare/wrangler
