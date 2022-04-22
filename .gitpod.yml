@@ -4,8 +4,8 @@ image:
 
 tasks:
   - init: |
-      npm i create-react-app -g
-      npm i @cloudflare/wrangler -g
+      npm i -g create-react-app
+      npm i -g @cloudflare/wrangler
       cd web && npm install
   - command: |
       cd web && npm start
